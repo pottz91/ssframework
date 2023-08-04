@@ -1,0 +1,7 @@
+---
+Name: app
+After: framework/routes#corporate
+---
+Director:
+  rules:
+    'login//$Action/$ID/$OtherID': 'LoginController'
